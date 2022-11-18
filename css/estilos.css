@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto'
+}
+
+/* estilos barra de navegación */
+
+h1 {
+    justify-content: left;
+    text-shadow: 5px 5px 10px black;
+}
+
+header {
+    background-color: #08698f;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgb(3, 3, 49);
+}
+
+
+li a {
+    color: rgba(255, 0, 0, 0.877);
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/* footer */
+.foot {
+    text-align: center;
+    color: black;
+    background-color: #08698f;
+}
+
+
+.main {
+    background-color: #08698f;
+}
+
+/* estilos del pie de página */
+
+footer {
+    background-color: #08698f;
+}
+
+/* estilos recetas.html */
+
+h2 {
+    text-align: center;
+}
+
+.titulo-nosotros{
+    background-color: black;
+}
+
+div h3 a {
+    text-decoration: none;
+    color:chartreuse
+}
+
